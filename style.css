@@ -1,0 +1,292 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+img{
+  width: 1000px;
+  display: flex;
+  height: 400px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  max-width: 1200px;
+}
+
+.hero{
+  background-color: #1f2937;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.header-title{
+  display: flex;
+  font-size: 100px;
+  color: #f9faf8;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.header-links{
+  display: flex;
+  gap: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.hero-container-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  padding: 0rem;
+  margin-top: 70px;
+}
+
+.hero-container-content p {
+  font-size: 25px;
+  color: #e5e7eb;
+}
+
+.hero-container-content button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.35rem;
+  border: none;
+  margin-top: 2rem;
+  transition-property: all ease 3s;
+}
+
+.hero-container img{
+  margin-top: 0px;
+  border-radius: 1.5rem;
+  border: #3882f6 0.25rem solid;
+}
+
+/* image-container */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem;
+  background-color: #1f2937;
+}
+
+.image-container h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+.image-group-container {
+  display: flex;
+}
+
+.image-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.image-group p{
+  font-family: 'Lucida Sans';
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+}
+.h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lucida Sans';
+}
+
+.image-group img {
+  width: 300px;
+  display: inline;
+  height: auto;
+  border: #3882f6 0.25rem solid;
+  border-radius: 1rem;
+}
+
+.destination{
+  font-size: 2.4rem;
+  font-family:'Lucida Sans';
+  margin: 0rem;
+  text-align: center;
+  background-color: #1f2937;
+  flex-direction: column;
+}
+.destination h2{
+  margin-bottom: 40px;
+  color: white;
+}
+.destination-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.destination-item img{
+  width: 300px;
+  height: 300px;
+  border: #3882f6 0.25rem solid;
+  border-radius: 1rem;
+  align-items: center;
+  margin-left: 60px;
+}
+.destination-item{
+  text-align: left;
+}
+.destination-item h3{
+  font-size: 2rem;
+  color: white;
+  line-height: 2;
+  text-align: center;
+}
+.destination-item p{
+  font-size: 15px;
+  font-family:'Lucida Sans';
+  font-weight: 200;
+  color: white;
+  text-align: left;
+}
+
+/* quote-container */
+.quote-container {
+  display: flex;
+  background-color:#1f2937;
+  justify-content: center;
+  padding: 5rem;
+  color: white;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: white;
+}
+
+.quote-wrapper p{
+  color: white;
+}
+
+.quote-author-container {
+  display: flex;
+  justify-content: end;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+}
+.about{
+  text-align: center;
+  padding: 80px;
+  background-color: #1f2937;
+  color: white;
+}
+.about h3{
+  font-family:'Lucida Sans';
+  font-size: 3rem;
+}
+.about p{
+  font-family:'Lucida Sans';
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+/* call-to-action container*/
+.call-to-action-container {
+  padding: 6rem 20rem;
+  color: white;
+  background-color: #1f2937;
+}
+
+.call-to-action-banner {
+  background-color: #3882f6;
+  border-radius: 0.5rem;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left p {
+  font-weight: 100;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  border: #f9faf8 2px solid;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+  padding: 0.5rem 1.5rem;
+  color: #f9faf8;
+}
+.sign-up:hover{
+  transition: 2s;
+}
+
+/* footer */
+footer{
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.social icons a{
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+footer p{
+  font-family: 'Lucida Sans';
+  font-size: 1.2rem;
+}
